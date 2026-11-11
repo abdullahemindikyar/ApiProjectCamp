@@ -3,6 +3,8 @@ using ApiProjectCamp.WebApi.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
+// Chef ve Category controllerlarına Entity üzerinden eriştim. Diğerlerinde de manuel mapleme ve otomatik mapleme kullanacağım. Yani bu projede 3 farklı kullanım önümüze çıkacak.
+
 namespace ApiProjectCamp.WebApi.Controllers
 {
     [Route("api/[controller]")]
